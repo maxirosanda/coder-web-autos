@@ -1,0 +1,21 @@
+.navbar{
+  background-color: blue;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 1px solid white;
+  .navbar .nav-link {
+    color: aliceblue;
+  }
+  .navbar .nav-item {
+    color: blue;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .navbar .navbar-brand {
+      display: none;
+    }
+  }
+} 
+
+
